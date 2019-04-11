@@ -1,0 +1,12 @@
+/**
+ * Filename: transitions.scss
+ *
+ * About:
+ * 		A mixin for apply all kinds of transition 
+ */
+
+@mixin transition($property, $time, $timing) {
+	-webkit-transition: $property $time $timing;
+  		-ms-transition: $property $time $timing;
+  			transition: $property $time $timing;
+}
